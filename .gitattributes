@@ -1,0 +1,14 @@
+# Сделать поведение с переносом строк одинаковым для всех
+* text=auto
+
+# Явно указать, что файлы Unity — это текст и требуют нормализации
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+*.mat text
+*.anim text
+*.asset text
+*.unity text
+*.meta text
+*.json text
+*.xml text
